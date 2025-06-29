@@ -1,5 +1,5 @@
-const accountId = 144455
-let accountEmail = "sonukr@gmail.com"
+const accountId = 144455 // Using const for Constant"Data Type
+let accountEmail = "sonukr@gmail.com"// using let for Variables"Data Type
 var accountPassword = "Sonu@1234"
 accountCity = "Delhi"
 
