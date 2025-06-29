@@ -1,2 +1,2 @@
-# This is Pring Statement
+// This is Pring Statement
 console.log("Hello Sonu Kumar");
