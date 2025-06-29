@@ -4,6 +4,7 @@ var accountPassword = "Sonu@1234"
 accountCity = "Delhi"
 
 let accountState
+let accountCountry
 
 // accountId = 2 // not allowed, const cannot be reassigned
 accountEmail = "sonuyadav@gmail.com" // allowed, const can be reassigned
