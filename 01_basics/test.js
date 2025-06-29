@@ -1,2 +1,1 @@
-# This is Pring Statement
-console.log("Hello Sonu Kumar");
+console.log("Let's get started with JavaScript!");
