@@ -57,4 +57,48 @@ console.log(typeof myFunction);
 
 // https://www.w3schools.com/js/js_typeof.asp
 
+// *****************************************************************************************************
+
+// Stack vs Heap Memory -------
+
+// Stack Memory (Non-Primitive): Stores primitive data types (e.g., numbers, strings) and function calls.
+//   - Fast access, limited size, LIFO (Last In First Out) structure.
+//   - Example: Local variables, function parameters.
+//   - Memory is automatically managed, deallocated when the function exits.
+//   - Example: `let x = 10;` is stored in stack memory.
+//   - Stack memory is used for static memory allocation.
+//   - Example: `function add(a, b) { return a + b; }` stores `a` and `b` in stack memory.
+//   - Stack memory is used for function calls and local variables.
+
+let myYoutubeChannel = "Sonu Yadav"; // String stored in stack memory
+
+let anothername = "Sonu Yadav"; // Another string stored in stack memory
+anothername = "Sk Yadav"; // Reassigning a new value, old value is still in stack memory
+
+console.log(myYoutubeChannel); // Accessing the string stored in stack memory
+console.log(anothername); // Accessing the reassigned string in stack memory
+
+// Heap Memory (Reference Types): Stores non-primitive data types (e.g., objects, arrays).
+//   - Dynamic memory allocation, larger size, slower access.
+//   - Example: Objects, arrays, functions.
+//   - Memory is managed by the garbage collector, deallocated when no references remain.
+//   - Heap memory is used for dynamic memory allocation.
+
+let userOne ={
+    email: "user@goole.com",
+    upi: "user@upi"
+}
+
+let userTwo = userOne; // Reference to the same object in heap memory
+
+userTwo.email = "sonuyadav930822@gmail.com"; // Modifying the object through userTwo
+
+console.log(userOne.email); // Accessing the modified email through userOne
+console.log(userTwo.email); // Accessing the modified email through userTwo
+
+
+
+
+
+
 
