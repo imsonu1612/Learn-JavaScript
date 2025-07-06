@@ -56,14 +56,28 @@ const users = [
 ]
 
 users [1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // Output: Array of keys in the object
-console.log(Object.values(tinderUser)); // Output: Array of values in the object
+// console.log(Object.keys(tinderUser)); // Output: Array of keys in the object
+// console.log(Object.values(tinderUser)); // Output: Array of values in the object
 
-console.log(Object.entries(tinderUser)); // Output: Array of key-value pairs in the object
+// console.log(Object.entries(tinderUser)); // Output: Array of key-value pairs in the object
 
-console.log(Object.hasOwn(tinderUser, "id")); // Output: true if the object has the property "id", false otherwise
+// console.log(Object.hasOwn(tinderUser, "id")); // Output: true if the object has the property "id", false otherwise
+
+
+const course = {
+     courseName: "JavaScript Basics",
+     price: "999",
+        courseAuthor: "Sonu Kumar",
+}
+
+const {courseAuthor: author} = course; // Destructuring assignment to extract courseAuthor from the course object
+
+// console.log(courseAuthor); // Output: "Sonu Kumar"
+
+console.log(author); // Output: "Sonu Kumar"
+
 
 
 
